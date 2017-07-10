@@ -1,0 +1,136 @@
+/*==========  Desktop First Method  ==========*/
+/* XLarge Devices, Wide Screens */
+@media only screen and (max-width : 1920px) {
+	.main_header {
+		height: 760px;
+	}
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.main_header {
+		height: 600px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.main_header {
+		height: 450px;
+	}
+	.main_header_text h1 {
+		padding-top: 12%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.main_header {
+		height: 300px;
+	}
+	.main_header_text h1 {
+		font-size: 36px;
+	}
+	.main_header_text p {
+		font-size: 18px;
+	}
+	section h2 {
+		font-size: 28px;
+	}
+	section h3,
+	section p {
+		font-size: 18px;
+	}
+	.main_content img {
+		width: 70%;
+	}
+	.main_content {
+		margin-bottom: 10px;
+		margin-top: 20px;
+	}
+	.top_menu {
+		position: relative;
+	}
+	.top_menu ul {
+		position: absolute;
+		left: 50px;
+		top: 0;
+	}
+	.top_menu ul li {
+		background-color: #EDDB7A;
+		display: block;
+	}
+	form .sign_button {
+		width: 160px;
+	}
+	.checkbox label {
+		font-size: 12px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.main_header {
+		height: 180px;
+	}
+	.main_header_text h1 {
+		margin-bottom: 0;
+	}
+	.main_header_text h1 {
+		padding-top: 8%;
+	}
+	.top_button a {
+		width: 120px;
+	}
+	form .sign_button {
+		margin-top: 0;
+	}
+	.sign_button {
+		clear: both;
+	}
+	form .checkbox {
+		float: left;
+		margin-top: 0;
+		margin-bottom: 10px;
+		display: block;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+	
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.top_menu ul {
+		display: block!important;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

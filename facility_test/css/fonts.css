@@ -1,0 +1,19 @@
+	@font-face {
+		font-family: "PTSansCaptionRegular";
+		src: url("../fonts/PTSansCaptionRegular/PTSansCaptionRegular.eot");
+		src: url("../fonts/PTSansCaptionRegular/PTSansCaptionRegular.eot?#iefix")format("embedded-opentype"),
+		url("../fonts/PTSansCaptionRegular/PTSansCaptionRegular.woff") format("woff"),
+		url("../fonts/PTSansCaptionRegular/PTSansCaptionRegular.ttf") format("truetype");
+		font-style: normal;
+		font-weight: normal;
+	}
+
+	@font-face {
+		font-family: "PTSansCaptionBold";
+		src: url("../fonts/PTSansCaptionBold/PTSansCaptionBold.eot");
+		src: url("../fonts/PTSansCaptionBold/PTSansCaptionBold.eot?#iefix")format("embedded-opentype"),
+		url("../fonts/PTSansCaptionBold/PTSansCaptionBold.woff") format("woff"),
+		url("../fonts/PTSansCaptionBold/PTSansCaptionBold.ttf") format("truetype");
+		font-style: normal;
+		font-weight: normal;
+	}
