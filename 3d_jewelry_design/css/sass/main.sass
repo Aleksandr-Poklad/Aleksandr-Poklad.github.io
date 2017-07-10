@@ -1,0 +1,497 @@
+@import "bourbon/bourbon"
+
+body
+	font-family: "Raleway", sans-serif
+	font-weight: normal
+	font-size: 14px
+	min-width: 320px
+	position: relative
+	line-height: 1.42857
+	-webkit-font-smoothing: antialised
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+*:focus,
+*:hover,
+*:focus
+	outline: none
+	outline-offset: 0
+
+.hidden
+	display: none
+
+section,
+.main_head
+	position: relative
+	h3
+		text-align: center
+		text-transform: uppercase
+		font-weight: 500
+		margin-top: 0
+		margin-bottom: 40px
+	
+
+header
+	border: 1px solid inherit
+	box-shadow: 0 0 0 1000px rgba(0,0,0,.3) inset
+	z-index: 300
+
+
+section
+	padding: 70px 0 90px
+	h2
+		text-align: center
+		font-size: 24px
+		text-transform: uppercase
+		margin: 0 0 15px
+
+.s_descrip_wrap
+	text-align: center
+	.s_descrip
+		display: inline-block
+		text-transform: uppercase
+		font-size: 12px
+		position: relative
+		margin-bottom: 120px
+		&::after
+			content: ""
+			width: 150px
+			height: 1px
+			position: absolute
+			left: 50%
+			margin-left: -75px
+			margin-top: 50px	
+
+.main_head
+	min-height: 620px
+	padding-top: 20px
+
+.loader 
+	background: none repeat scroll 0 0 #ffffff
+	bottom: 0
+	height: 100%
+	left: 0
+	position: fixed
+	right: 0
+	top: 0
+	width: 100%
+	z-index: 9999
+.loader_inner 
+	background-image: url("../img/preloader.gif")
+	background-size: cover
+	background-repeat: no-repeat
+	background-position: center center
+	background-color: #fff
+	height: 60px
+	width: 60px
+	margin-top: -30px
+	margin-left: -30px
+	left: 50%
+	top: 50%
+	position: absolute
+.logo_container
+	float: left
+
+svg
+	height: 60px
+	position: relative
+	z-index: 100
+
+.toggle_menu
+	height: 60px
+	width: 60px
+	float: right
+	position: fixed
+	top: 20px
+	right: 20px
+	z-index: 100
+	border: none
+	span
+		display: block
+
+.h_opasi
+	opacity: .3
+	+transition(all .2s ease)
+
+$w: 36px
+$h: 3px
+.sandwich 
+	width: $w
+	height: $w
+	position: absolute
+	top: 15px
+	bottom: 0
+	left: 0
+	right: 0
+	margin: auto
+	z-index: 200
+.sw-topper
+	position: relative
+	top: 0
+	width: $w 
+	height: $h
+	background: rgb(255, 255, 255)
+	border: none
+	border-radius: 4px 4px 4px 4px
+	transition: transform 0.5s, top 0.2s
+//transition-delay: 0.2s, 0s;
+.sw-bottom
+	position: relative
+	width: $w
+	height: $h
+	top: $h * 2
+	background: rgb(255, 255, 255)
+	border: none
+	border-radius: 4px 4px 4px 4px
+	transition: transform 0.5s, top 0.2s
+	transition-delay: 0.2s, 0s
+.sw-footer
+	position: relative
+	width: $w
+	height: $h
+	top: $h * 4
+	background: rgb(255, 255, 255)
+	border: none
+	border-radius: 4px 4px 4px 4px
+	transition: all 0.5s
+	transition-delay: 0.1s
+.sandwich.active 
+	.sw-topper
+		top: 10px
+		transform: rotate(-45deg)
+	.sw-bottom
+		top: 6px
+		transform: rotate(45deg)
+	.sw-footer
+		opacity: 0
+		top: 0
+		transform: rotate(180deg)
+
+.top_menu
+	position: fixed
+	width: 100%
+	height: 100%
+	background-color: rgba(0,0,0,.85)
+	z-index: 50
+	right: 0
+	top: 0
+	display: none
+	ul,
+	li
+		list-style-type: none
+		margin: 0
+		padding: 0
+	ul
+		margin-top: 150px
+		text-align: center
+		li
+			&:nth-child(1) a
+				+animation-duration(1s)
+			&:nth-child(2) a
+				+animation-duration(2s)
+			&:nth-child(3) a
+				+animation-duration(2.5s)
+			&:nth-child(4) a
+				+animation-duration(3s)
+		a
+			color: #fff
+			display: block
+			text-transform: uppercase
+			font-size: 12px
+			opasity: 0
+			position: relative
+			height: 60px
+			span
+				display: block
+				position: relative
+				top: -40px
+				left: 0
+				height: 100%
+				+transition(all 0.5s ease)
+				&:hover
+					background-color: rgba(255,255,255,.08)
+					
+.home_wrapper
+	display: table
+	width: 100%
+	height: 100%
+	position: absolute
+	top: 0
+	left: 0
+	z-index: 10
+	.home_descrip
+		display: table-row
+		.home_center
+			display: table-cell
+			text-align: center
+			vertical-align: middle
+	.home_text
+		display: inline-block
+		p
+			margin: 0
+			text-transform: uppercase
+			font-size: 18px
+			+animation-delay(1.5s)
+		h1
+			display: inline-block
+			padding: 10px 35px
+			border: 8px solid #fff
+			color: #fff
+			text-transform: uppercase
+			font-weight: bold 
+			font-size: 2.8em
+			background-color: rgba(0,0,0,.4) 
+			margin-left: 20px
+			margin-right: 20px
+			+animation-delay(1.5s)
+.main_footer
+	padding: 50px 0
+	font-size: 13px
+	font-weight: 300
+
+.main_footer .sociall_wrapp
+	float: right
+	line-height: 0
+	ul
+		margin: 0
+
+.person
+	text-align: center
+	margin-bottom: 40px
+	img
+		max-width: 220px
+		display: inline-block
+		border-radius: 50%
+
+.s_about
+	p
+		margin-bottom: 25px
+	ul,
+	li
+		margin: 0
+		padding: 0
+		list-style-type: none	
+	li
+		margin-bottom: 10px
+	.sociall_wrapp
+		margin-top: 40px
+
+
+.sociall_wrapp				
+	li
+		display: inline-block
+		padding: 0 5px
+		font-size: 20px
+
+.servises_container 
+	.left_res
+		padding-top: 30px
+		text-align: right
+		h3
+			text-align: right
+.servises_container
+	.right_res
+		padding-top: 30px
+		text-align: left
+		h3
+			text-align: left
+	h3
+		display: inline
+		padding: 10px 25px
+		margin-top: 30px
+		font-size: 16px
+		font-weight: 600
+
+.res_icon
+	font-size: 40px
+	margin: 35px 0
+
+.res_item
+	margin-bottom: 30px
+	.res_descrip
+		font-style: italic
+		strong
+			font-weight: 800
+			font-style: normal	
+			text-transform: uppercase
+	p
+		margin-top: 10px
+	&:last-child 
+		margin-bottom: 0
+		p
+			clear: both
+			margin-bottom: 30px
+	ul
+		float: right
+		list-style-type: none
+		li:before
+			content: ''
+			display: inline-block
+			width: 5px
+			height: 5px
+			margin: 0 5px
+			transform: rotate(45deg)
+		li
+			text-align: left
+			span
+				font-weight: 400
+	ol
+		list-style-type: none
+		float: right
+		li
+			text-align: left
+			font-weight: 400
+			margin-bottom: 5px
+			span
+				display: inline-block
+				width: 20px
+				height: 20px
+				text-align: center
+				margin-right: 5px
+
+				
+
+.slider_container
+	position: relative
+	img
+		width: 100%
+	.next_button,
+	.prev_button
+		position: absolute
+		z-index: 10
+		cursor: pointer
+		top: 45%
+		color: #fff
+		font-size: 40px
+		background-color: rgba(255, 255, 255, 0.5)
+		padding: 0 18px
+		border-radius: 30em
+	.next_button
+		right: 20px
+	.prev_button
+		left: 20px
+
+
+
+
+
+
+
+
+
+
+
+.s_projects
+	ul,
+	li
+		list-style-type: none
+		margin: 0
+		padding: 0
+		text-align: center
+	ul
+		margin-bottom: 50px
+	li
+		display: inline-block
+		margin: 0 15px
+		text-transform: uppercase
+		font-size: 12px
+		cursor: pointer
+		line-height: 2
+
+.project_item
+	display: none
+	padding: 0
+	img
+		width: 100%
+	.pointing_cont
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+		height: 100%
+		background-color: rgba(0,0,0,.7)
+		text-align: center
+		padding-top: 15px
+		opacity: 0
+		transition: all .5s
+	&:hover .pointing_cont
+		opacity: 1
+		padding-top: 15%
+	h3
+		color: #fff
+		margin-bottom: 0
+	a
+		background-color: transparent
+		border: 1px solid #fff
+		padding: 5px 10px
+		margin-top: 15px
+		display: inline-block
+		
+
+.project_description
+	background-color: #fff
+	max-width: 500px
+	margin: auto
+	h3,
+	p
+		padding: 15px 20px 0 20px
+	h3
+		margin-bottom: 0
+		text-align: center
+		text-transform: uppercase
+		margin-top: 15px
+	p
+		margin-top: 0
+	img
+		width: 100%
+		margin-top: 20px
+.mfp-inline-holder .mfp-content, .mfp-ajax-holder .mfp-content
+	max-width: 500px
+.mfp-close-btn-in .mfp-close
+	top: 10px
+
+.contact_box
+	margin-bottom: 30px
+	h3
+		text-align: left
+		color: #000
+		margin-bottom: 0
+		font-size: 14px
+	.contacts_icon
+		font-size: 30px
+	p
+		margin-top: 5px
+.main_form 
+	button
+		border: none
+		color: #fff
+		line-height: 40px
+		padding: 0 25px
+		text-transform: uppercase
+		font-size: 14px
+		font-weight: 600
+		margin-top: 10px
+
+.form-group
+	font-weight: 600
+	margin-bottom: 20px
+	display: block
+	input,
+	textarea
+		display: block
+		width: 100%
+		border: 1px solid #ccc
+		margin-top: 5px
+		line-height: 40px
+		text-indent: 15px
+		font-size: 14px
+		font-weight: 400
+		background-color: transparent
+
+ 
+

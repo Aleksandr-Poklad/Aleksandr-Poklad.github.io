@@ -1,0 +1,172 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\0000311}}
+body {
+  color: #222;
+  letter-spacing: 1px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\0000315}}
+a,
+a:visited {
+  color: #32CD32; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\0000319}}
+p,
+body .main_footer,
+.s_about li {
+  color: #888; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\0000325}}
+.color_element {
+  color: #32CD32; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\0000327}}
+.color_bg {
+  background-color: #32CD32; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\0000329}}
+.color_border {
+  border-color: #32CD32; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\0000332}}
+.bg_light {
+  background-color: #FAFAFA; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\0000335}}
+.bg_dark {
+  background-color: #222;
+  color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\0000338}}
+  .bg_dark .s_descrip::after {
+    background-color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\0000340}}
+  .bg_dark a {
+    color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\0000344}}
+path {
+  fill: #222; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\0000347}}
+.toggle_menu {
+  background-color: #222; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\0000351}}
+.top_menu a:hover {
+  color: #32CD32; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\0000353}}
+.top_menu a {
+  letter-spacing: 4px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\0000357}}
+.home_text p {
+  color: #FAFAFA;
+  letter-spacing: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\0000361}}
+.s_descrip {
+  letter-spacing: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\0000363}}
+  .s_descrip::after {
+    background-color: #222; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\0000366}}
+section h3 {
+  letter-spacing: 3px;
+  color: #888; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\0000371}}
+.s_about p:nth-child(even) {
+  color: #32CD32; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\0000376}}
+.servises_container h3 {
+  color: #fff;
+  letter-spacing: 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\0000379}}
+.servises_container .left_res {
+  border-right: 1px solid #32CD32; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\0000381}}
+.servises_container .left_res .res_descrip strong {
+  margin-left: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\0000383}}
+.servises_container .right_res .res_descrip strong {
+  margin-right: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\0000388}}
+.servises_container .left_res li:before {
+  background-color: #32CD32; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\0000391}}
+.servises_container .left_res li span {
+  color: #222;
+  letter-spacing: 1px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\0000396}}
+.servises_container .left_res ol li span {
+  background-color: #32CD32;
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\00003102}}
+.servises_container .left_res p span {
+  color: #32CD32; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\00003108}}
+.servises_container .right_res p span {
+  color: #32CD32; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\00003112}}
+.servises_container h3 {
+  background-color: #32CD32; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\00003114}}
+.servises_container .res_descrip {
+  letter-spacing: 1px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\00003119}}
+.next_button i,
+.prev_button i {
+  color: #222; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\00003124}}
+.s_projects li {
+  color: #888;
+  letter-spacing: 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\00003127}}
+.s_projects li.active {
+  color: #fff;
+  border-bottom-color: #32CD32;
+  border-bottom-style: double; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\00003133}}
+.project_item .pointing_cont a {
+  border-color: #32CD32;
+  color: #32CD32; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\00003137}}
+.project_item {
+  border: 2px solid #222; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\00003140}}
+.main_footer a {
+  color: #32CD32; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\00003143}}
+.contacts_icon {
+  color: #32CD32; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\00003146}}
+.text-danger {
+  color: #32CD32; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\00003150}}
+form input:focus,
+form textarea:focus {
+  border: 1px solid #32CD32; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\00003153}}
+form input,
+form textarea {
+  letter-spacing: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\00003156}}
+form button {
+  background-color: #32CD32;
+  letter-spacing: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Server\/data\/htdocs\/avb-design\/_clean_html\/css\/sass\/skins\/green\.sass}line{font-family:\00003159}}
+form .form-group {
+  letter-spacing: 3px;
+  color: #888; }
