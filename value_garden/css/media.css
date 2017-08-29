@@ -1,0 +1,101 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.sliderContainer .container-topText {
+		top: 30px !important;
+	}
+	.sliderContainer .container-topText p {
+		margin-top: 0 !important;
+	}
+	.sliderContainer .container-topText .sellRight {
+		margin-top: 15px !important;
+	}
+	
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.sliderContainer {
+		width: 100%;
+	}
+	.sliderContainer .container-topText {
+		top: 30px !important;
+	}
+	.sliderContainer .container-topText p {
+		display: none;
+	}
+	.sliderContainer .container-topText .sellRight {
+		margin-top: 0 !important;
+	}
+	.nav-menu .nav-left {
+		margin: 5px !important;
+	}
+	.nav-menu .nav-left ul {
+		margin-top: 15px;
+		background-color: #fff;
+	}
+	.nav-menu .nav-left ul li{
+		display: block !important;
+		float: none !important;
+		padding: 2px !important;
+	}
+	.nav-menu .nav-left ul li a {
+		border: none !important;
+	}
+	.nav-free {
+		display: none;
+	}
+	.main-content {
+		margin-left: 40px;
+	}
+	.main-footer .container {
+		margin: 0 40px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.nav-left ul {
+		display: block !important;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.container {
+		width: 1024px;
+	}
+}
