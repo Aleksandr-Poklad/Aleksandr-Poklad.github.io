@@ -1,0 +1,107 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	header .sale h1 {
+		font-size: 26px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	header .sale .sale_percent h3 {
+		font-size: 60px;
+		left: 20%;
+		top: 0;
+	}
+	header .sale h1 {
+		font-size: 20px;
+	}
+	header .sale .sale_percent p {
+		font-size: 11px;
+	}
+}
+@media only screen and (max-width : 600px) {
+	header .sale .sale_percent h3 {
+		font-size: 50px;
+		left: 12%;
+		top: 0;
+	}
+	header .sale h1 {
+		font-size: 17px;
+	}
+	header .sale p {
+		font-size: 16px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	header .sale h1 {
+		text-align: center;
+	}
+	header .logo {
+		width: 100%;
+	}
+	header .logo h2 {
+		text-align: center;
+		margin-left: 0;
+	}
+	header .sale {
+		width: 100%;
+	}
+	header .sale .sale_iside1,
+	header .sale .sale_iside2 {
+		width: 100%;
+		padding: 0 15%;
+	}
+	header .sale .sale_iside1 {
+		margin-bottom: 20px;
+	}
+	header .sale .sale_percent h3 {
+		font-size: 50px;
+		left: 35%;
+		top: 0;
+	}
+	header .sale p {
+		text-align: center;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

@@ -1,0 +1,225 @@
+*,
+html {
+	margin: 0;
+	padding: 0;
+}
+* {
+  outline: 0 !important;
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	color: #02335f;
+}
+.wrapper {
+	max-width: 875px;
+}
+.bg_header {
+	background-image: url(../images/bg_header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+header .logo h2 {
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+header .sale {
+	padding-left: 6px;
+}
+header .sale h1 {
+	text-transform: uppercase;
+	font-size: 29px;
+	font-weight: 300;
+	margin-top: 16px;
+	word-spacing: 4px;
+	margin-bottom: 10px;
+}
+header .sale .sale_iside1 {
+	padding-right: 12px;
+} 
+header .sale .sale_iside2 {
+	padding-right: 30px;
+	padding-left: 0;
+}
+header .sale .sale_percent {
+	border: 3px solid #02335f;
+	padding: 0;
+	height: 106px;
+	position: relative;
+}
+header .sale .sale_percent h3 {
+	font-size: 78px;
+	position: absolute;
+	left: 15%;
+	top: -15px;
+}
+header .sale .sale_percent p {
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 75px;
+}
+header .sale p {
+	font-size: 20px;
+	margin-top: 7px;
+	letter-spacing: 0.5px;
+	margin-bottom: 18px;
+}
+section .bg_section {
+	background-color: #dcf2fc;
+}
+section .main_content {
+	padding-left: 45px;
+	padding-top: 22px;
+}
+section .main_content h3 {
+	margin-left: 15px;
+	letter-spacing: 0.4px;
+}
+section .main_content ol {
+	margin-left: 80px;
+	margin-top: 11px;
+	margin-bottom: 24px;
+}
+section .main_content ol li {
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 3px;
+	letter-spacing: 0.8px;
+}
+section .main_content ol li span {
+	color: #ff9100;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+section .main_content ul {
+	margin-left: 60px;
+	margin-top: 8px;
+	list-style-type: square;
+	margin-bottom: 20px;
+}
+section .main_content ul li {
+	font-size: 12px;
+	font-weight: 600;
+	margin-bottom: 2px;
+	letter-spacing: 1.5px;
+}
+section .main_content ul li span {
+	font-weight: 400;
+	font-size: 13px;
+	letter-spacing: 0.8px;
+}
+section .main_content button {
+	margin-top: 35px;
+	margin-left: 15px;
+	letter-spacing: 2px;
+	border: none;
+	background: none;
+	border-bottom: 1px dashed #02335f;
+}
+section .main_content .hide_content {
+	display: none;
+}
+section .main_content .hide_content ul {
+	margin-top: 10px;
+}
+section .main_content .hide_content ul li {
+	font-weight: 400;
+	font-size: 13px;
+	margin-bottom: 1.5px;
+	letter-spacing: 0.8px;
+}
+section .main_content .hide_content ul li span {
+	font-size: 12px;
+	font-weight: 600;
+}
+section .content_bottom h4 {
+	margin-top: 40px;
+	margin-left: 22px;
+}
+section .content_bottom button {
+	margin-left: 22px;
+	margin-top: 12px;
+	margin-bottom: 5px;
+	padding: 7px 12px;
+	border: none;
+	background: none;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+section .content_bottom .button_greece {
+	margin-left: 10px;
+}
+section .content_bottom .block_cyprus,
+section .content_bottom .block_greece {
+	background-color: #ffffff;
+	margin: 4px;
+	padding: 13px 6px;
+}
+section .content_bottom .block_cyprus img,
+section .content_bottom .block_greece img {
+	width: 80px;
+	float: left;
+	margin-right: 14px;
+}
+section .content_bottom .block_cyprus a,
+section .content_bottom .block_greece a {
+	color: #032661;
+	font-size: 14px;
+	text-decoration: underline;
+}
+section .content_bottom .block_cyprus span,
+section .content_bottom .block_greece span {
+	font-size: 14px;
+}
+section .content_bottom .block_cyprus .text_green,
+section .content_bottom .block_greece .text_green {
+	color: #547f05;
+	font-size: 12px;
+	margin-top: 0;
+	letter-spacing: 1px;
+}
+section .content_bottom .block_cyprus p,
+section .content_bottom .block_greece p {
+	font-size: 10px;
+	margin-top: 4px;
+	color: #000000;
+	letter-spacing: 0.3px;
+}
+section .content_bottom .block_cyprus .price p,
+section .content_bottom .block_greece .price p {
+	color: #898b80;
+	letter-spacing: 0;
+}
+section .content_bottom .block_cyprus .price .price_num ,
+section .content_bottom .block_greece .price .price_num {
+	display: inline-block;
+	font-size: 14px;
+	color: #032661;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+section .content_bottom .block_cyprus .price .price_num span,
+section .content_bottom .block_greece .price .price_num span {
+	text-decoration: none;
+}
+section .content_bottom .block_cyprus .price .flu,
+section .content_bottom .block_greece .price .flu {
+	margin-bottom: 38px;
+}
+section .content_bottom .block_cyprus .price a,
+section .content_bottom .block_greece .price a {
+	font-size: 10px;
+	color: #ffffff;
+	background-color: #8dc82c;
+	padding: 5px 30px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+section .content_bottom .active {
+	background: #fee534;
+}
+
