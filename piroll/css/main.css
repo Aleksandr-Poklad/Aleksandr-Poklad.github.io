@@ -313,6 +313,7 @@ header .manu_wrap .nav .active a {
 		height: 100%;
 		display: none;
 		pointer-events: none;
+		z-index: 250;
 		
 	}
 	#modal1:target,
@@ -334,6 +335,7 @@ header .manu_wrap .nav .active a {
 		max-width: 500px;
 		max-height: 500px;
 		margin: 10% auto;
+		z-index: 250;
 		
 	}
 	.modal_window .modal_cont_wrap {
