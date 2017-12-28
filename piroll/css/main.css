@@ -599,7 +599,6 @@ header .manu_wrap .nav .active a {
 		width: -moz-fill-available;
 		width: -o-fill-available;
 		clear: both;
-		overflow: hidden;
 	}
 	#contact .contact_form_wrap form textarea {
 		width: -webkit-fill-available;
