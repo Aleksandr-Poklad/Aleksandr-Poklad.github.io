@@ -133,7 +133,7 @@ main .wrap {
 .wrapper_content {
 	max-width: 80%;
 	margin: 0 auto;
-	margin-top: 3rem;
+	margin-top: 10%;
 }
 .wrapper_content .flax_container {
 	display: flex;
