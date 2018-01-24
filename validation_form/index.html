@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8" />
+	<title>Validation form</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+	<div class="valid-form">
+		<div class="wrapper">
+				<form id="form" class="form">
+					<h1>Регистрационная форма</h1><hr/>
+					<p><label>Email<input id="email" type="email" name="email" placeholder="pochta@gmail.com" value="" required> *</label></p>
+					<p><label>Никнейм<input id="nickName" type="text" name="nickname" placeholder="Phantom" value="" required> *</label></p>
+					<p>Пол:
+						<label><input id="sex" type="radio" name="sex" value="male">Мужской</label>
+						<label><input id="sex" type="radio" name="sex" value="female">Женский</label></p>
+						<p><label>Телефон<input id="tel" type="tel" name="tel" placeholder="+380502939913" value="" required> *</label></p>
+						<p><label>Город<input id="city" type="text" name="city" placeholder="Киев" value=""></label></p>
+						<p><label>Пароль<input id="password" type="password" name="password" placeholder="Пароль" value="" required> *</label></p>
+						<button type="submit" name="submit" value="">Отправить</button>
+					</form>
+			</div>
+		</div>	
+		<script src="libs/jquery/jquery-2.2.3.min.js"></script>
+		<script src="js/common.js"></script>
+	</body>
+	</html>

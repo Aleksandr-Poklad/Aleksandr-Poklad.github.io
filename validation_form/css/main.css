@@ -1,0 +1,101 @@
+
+	
+}
+body input:required:valid {
+	border: 2px solid green;
+}
+.error {
+	border: 2px solid red !important;
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	width: 850px;
+	margin: 0 auto;
+	height: 730px;
+}
+.valid-form {
+	background-color: #f2f3ea;
+	padding: 50px 0;
+}
+.form {
+	background-color: #fff;
+
+
+}
+.form h1 {
+	font-family: "RobotoBold";
+	text-align: center;
+	background-color: #fff8cc;
+	padding: 20px 0;
+	color: #666666;
+}
+.form hr {
+	border: none;
+	background-color: #e0e0e0;
+	color: #e0e0e0;
+	height: 1px;
+}
+.form p {
+	height: 60px;
+	color: #5ba689;
+	font-size: 24px;
+	padding-left: 100px;
+	padding-top: 30px;
+}
+.form label {
+	cursor: pointer;
+}
+.form label input {
+	height: 50px;
+	width: 500px;
+	border-radius: 5px;
+	outline: none;
+	font-size: 20px;
+	font-family: "RobotoRegular";
+	background-color: #e8f2e4;
+	border: 1px solid #CCC;
+	box-shadow: -1px -1px 5px 0px rgba(184,195,179,1);
+}
+.form label #email {
+	margin-left: 85px;
+}
+.form label #nickName {
+	margin-left: 50px;
+}
+.form label #sex {
+	width: 50px;
+	height: 20px;
+	margin-left: 75px;
+	box-shadow: none;
+}
+.form label #tel {
+	margin-left: 60px;
+}
+.form label #city {
+	margin-left: 90px;
+}
+.form label #password {
+	margin-left: 75px;
+}
+.form button {
+	width: 230px;
+	height: 60px;
+	margin: 20px 0 30px 250px;
+	font-size: 30px;
+	font-family: "RobotoBold";
+	background-color: #80bd95;
+	border-radius: 10px;
+	color: #fff;
+	cursor: pointer;
+	outline: none;
+}
+
+
