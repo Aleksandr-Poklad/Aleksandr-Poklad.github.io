@@ -18,36 +18,7 @@
     font-style: normal;
     font-weight: normal;
 }
-/* font-family: "CalligraphMedium"; */
-@font-face {
-    font-family: "CalligraphMedium";
-    src: url("../fonts/CalligraphMedium/CalligraphMedium.eot");
-    src: url("../fonts/CalligraphMedium/CalligraphMedium.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/CalligraphMedium/CalligraphMedium.woff") format("woff"),
-    url("../fonts/CalligraphMedium/CalligraphMedium.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-/* font-family: "BickhamScriptTwoRegular"; */
-@font-face {
-    font-family: "BickhamScriptTwoRegular";
-    src: url("../fonts/BickhamScriptTwoRegular/BickhamScriptTwoRegular.eot");
-    src: url("../fonts/BickhamScriptTwoRegular/BickhamScriptTwoRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/BickhamScriptTwoRegular/BickhamScriptTwoRegular.woff") format("woff"),
-    url("../fonts/BickhamScriptTwoRegular/BickhamScriptTwoRegular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-/* font-family: "AndikaRegular"; */
-@font-face {
-    font-family: "AndikaRegular";
-    src: url("../fonts/AndikaRegular/AndikaRegular.eot");
-    src: url("../fonts/AndikaRegular/AndikaRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/AndikaRegular/AndikaRegular.woff") format("woff"),
-    url("../fonts/AndikaRegular/AndikaRegular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
+
 /* font-family: "RobotoRegular"; */
 @font-face {
     font-family: "RobotoRegular";

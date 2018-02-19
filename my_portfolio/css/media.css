@@ -7,16 +7,110 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	
+	.containerContact {
+		justify-content: center;
+	}
+	.itemContact:nth-child(3) {
+		text-align: center;
+		margin-bottom: 80px;
+	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	.nav ul li {
-		display: block;
-		background-color: #15b956;
+	
+	header .manu_wrap .nav {
+		display: none;
 	}
+	header .manu_wrap .nav ul li {
+		display: block;
+		text-align: center;
+		margin-right: 0;
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
+	header .manu_wrap .nav ul li:hover {
+		background-color: rgba(178, 178, 170, 0.4);
+		cursor: pointer;
+	}
+	header .manu_wrap .nav ul li a {
+		color: #32CD32;
+	}
+	header .manu_wrap {
+		margin-top: 0;
+		width: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background-color: #000;
+		z-index: 200;
+	}
+
+	header .menu-open .nav {
+		display: block;
+	}
+	.manu_wrap .menu_button {
+		display: inline-block;
+		right: 15px;
+	}
+	.menu-open span:nth-child(1) {
+		top: 18px;
+		width: 0%;
+		left: 50%;
+		border: none;
+	}
+	.menu-open span:nth-child(2) {
+		transform: rotate(45deg);
+	}
+	.menu-open span:nth-child(3) {
+		transform: rotate(-45deg);
+	}
+	.menu-open span:nth-child(4) {
+		top: 18px;
+		width: 0%;
+		left: 50%;
+		border: none;
+	}
+
+	.containerAbout,
+	.containerContact {
+		justify-content: center;
+	}
+	
+	.itemContact:nth-child(3) {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 80px;
+	}
+	.myLinkSoc h3 {
+		padding-top: 0;
+	}
+	
+
+
+	.skills h3 {
+		padding-left: 55px;
+	}
+	.skills ul {
+	padding-left: 45px;
 }
+	
+}
+
+@media only screen and (max-width : 725px) {
+	.itemContact:nth-child(1) ul {
+	padding-bottom: 10px;
+}
+	.itemContact:nth-child(2),
+	.itemContact:nth-child(2) ul {
+	padding-top: 0;
+}
+.itemContact:nth-child(3) {
+	margin-top: 0;
+}
+
+}
+
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
@@ -24,17 +118,9 @@
 		padding-right: 10px;
 		padding-left: 10px;
 	}
-	.aboutMe {
-		margin-left: 20px;
-	}
+
 	.about .skills {
 		margin: 0;
-	}
-	.about .skills h3 {
-		padding-left: 0;
-	}
-	.about .skills ul {
-		padding-left: 0;
 	}
 	.contact .containerContact .contactt-box {
 		padding-left: 0;
@@ -67,8 +153,11 @@
 	.menu_button {
 		display: none;
 	}
+	header #menu {
+		display: block!important;
+	}
 	.nav ul {
-		display: block !important;
+		display: block!important;
 	}
 }
 
