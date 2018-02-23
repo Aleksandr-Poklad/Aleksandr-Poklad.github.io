@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Fregat_bold";
+  src: url("../font/Fregat_bold.otf"); 
+}
+
+@font-face {
+  font-family: "Fregat_regular";
+  src: url("../font/Fregat_regular.otf"); 
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url("../font/PTSansCaptionRegular.ttf"); 
+}

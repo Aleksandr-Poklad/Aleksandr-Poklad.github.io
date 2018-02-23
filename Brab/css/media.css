@@ -1,0 +1,153 @@
+@media only screen and (max-width: 1165px) { 
+.menu-wrap .nav {
+		display: none;
+	}
+	.top-header .menu-wrap .nav ul li {
+		display: block;
+		text-align: center;
+		margin-right: 0;
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
+	.top-header .menu-wrap .nav ul li:hover {
+		background-color: rgba(178, 178, 170, 0.2);
+		cursor: pointer;
+	}
+	.top-header .menu-wrap .nav ul li a {
+		color: #a2a2a2;
+	}
+	.top-header .menu-wrap .nav ul li:hover a {
+		color: #63b945;
+	}
+	.top-header .menu-wrap {
+		margin-top: 0;
+		width: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background-color: #000;
+		opacity: 0.8;
+		z-index: 200;
+	}
+
+	.menu-open .nav {
+		display: block;
+	}
+	.top-header .menu-wrap .menu-button {
+		display: inline-block;
+		right: 15px;
+		z-index: 1000;
+	}
+
+	.top-header .menu-open span:nth-child(1) {
+		top: 18px;
+		width: 0%;
+		left: 50%;
+		border: none;
+	}
+	.top-header .menu-open span:nth-child(2) {
+		transform: rotate(45deg);
+	}
+	.top-header .menu-open span:nth-child(3) {
+		transform: rotate(-45deg);
+	}
+	.top-header .menu-open span:nth-child(4) {
+		top: 18px;
+		width: 0%;
+		left: 50%;
+		border: none;
+	}
+}
+
+@media only screen and (max-width: 1000px) {  
+	.sit-badly .container-harmfulness {
+		justify-content: center;
+	}
+	
+}
+
+@media only screen and (max-width: 900px) {  
+	
+}
+
+@media only screen and (max-width: 767.9px) {  
+	.program-for ul {
+    margin-left: 15px;
+}
+
+	.cases-utility .row:nth-child(2),
+	.cases-utility .row:nth-child(4) {
+   display: flex;
+   flex-direction: column-reverse;
+}
+	
+ 
+
+}
+
+@media only screen and (max-width: 575px) {  
+	.how-it-work .icon {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.how-it-work h4 {
+		text-align: center;
+	}
+	.how-it-work p {
+		text-align: center;
+	}
+	.hide {
+		display: none;
+	}
+	.how-happen .show {
+	text-align: center;
+}
+	.how-happen .show .circle {
+		display: inline-block!important;
+	}
+	.how-happen p {
+		margin: auto;
+		margin-bottom: 20px;
+	}
+	.how-happen h4 {
+	padding-bottom: 10px;
+}
+	.button-box {
+		margin: auto;
+		text-align: center;
+	}
+	.button-box span:nth-child(1) {
+		display: block!important;
+		width: 178px;
+		height: 46px;
+		margin: 20px auto!important;
+	}
+	.button-box span:nth-child(2) {
+		margin-left: 0!important;
+		margin-top: 30px;
+	}
+}
+
+@media only screen and (max-width: 480px) {  
+	
+}
+
+@media only screen and (max-width: 320px) {  
+
+}
+
+
+
+
+@media only screen and (min-width : 768px) {
+	
+}
+
+@media only screen and (min-width : 1140px) {
+	.menu-button {
+		display: none;
+	}
+	.nav ul {
+		display: block !important;
+	}
+}
