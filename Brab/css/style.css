@@ -82,6 +82,8 @@ body {
 	text-decoration: none;
 	color: rgb(10, 21, 37);
 	font-weight: 600;
+	word-spacing: -1px;
+	letter-spacing: -0.2px;
 	font-family: "Fregat_regular";
 	-webkit-transition: .5s;
 	-moz-transition: .5s;
@@ -528,8 +530,8 @@ body {
 
 
 .cases-utility .wrap-text {
-  position: relative;
-  min-height: 300px;
+	position: relative;
+	min-height: 300px;
 }
 
 .cases-utility .text {
