@@ -793,6 +793,8 @@ body {
 	filter: alpha(opacity=0);
 	-webkit-appearance: none;
 	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
 	-ms-background-position: 95%;
 	background-position: 95%;
 	color:#939598; 
