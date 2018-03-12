@@ -175,6 +175,7 @@ body {
 	display: inline-block;
 	margin-left: 21px;
 	border-radius: 3px;
+	border: 1px solid #63b945;
 }
 .button-box span:nth-child(1) a {
 	color: #fff;
@@ -190,7 +191,7 @@ body {
 }
 .button-box span:nth-child(2) {
 	border: 1px solid #63b945;
-	padding: 9px 16px;
+	padding: 10px 16px;
 	display: inline-block;
 	margin-left: 32px;
 	border-radius: 3px;
