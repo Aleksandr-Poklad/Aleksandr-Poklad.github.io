@@ -1,0 +1,78 @@
+.b-menu {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 400px;
+    text-align: center;
+}
+
+.b-menu__item {
+    background-color: rgba(0, 112, 28, 1);
+    display: block;
+    vertical-align: top;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+}
+
+.b-menu__link {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.b-submenu {
+    list-style-type: none;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: none;
+    /* фактическое наличие */
+    /* opacity: 0; */
+    /* прозрачность */
+    /* visibility: hidden; */
+    /* transition: visibility 0.4s, opacity 0.4s; */
+}
+
+.b-submenu_shown {
+    /* visibility: visible; */
+    /* opacity: 1; */
+    display: block;
+}
+
+.b-submenu__item {
+    border-bottom: 1px solid #fff;
+    background-color: rgba(4, 177, 47, 1);
+}
+
+.b-submenu__item:last-child {
+    border-bottom: none;
+}
+
+.b-submenu__item a {
+    color: #e2e2e2;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+.b-submenu__link {
+    display: block;
+    padding: 3px 10px;
+}
+
+.b-submenu__item:hover {
+    background-color: rgba(58, 224, 100, 0.9);
+}
+
+.b-menu__item:hover {
+    background-color: rgba(0, 112, 28, 0.85);
+    /* background: none repeat scroll 0 0 #41e457; */
+    color: #FFFFFF;
+}
