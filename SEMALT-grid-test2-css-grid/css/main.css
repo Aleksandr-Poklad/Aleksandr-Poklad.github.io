@@ -72,7 +72,7 @@ input[id="grid_v2"]:checked ~ .content-wrapper .tab-grid-v2 {
     display: none; }
     .content-wrapper .tab-grid-v2 .grid-container-v2 {
       display: grid;
-      grid-template-columns: repeat(12, 1fr);
+      grid-template-columns: repeat(12, 1fr); /*because we have an even and odd number of columns in a row, and different row heights, we have to break the grid in more detail*/ 
       grid-template-rows: repeat(22, 96px);
       grid-auto-rows: 300px;
       grid-gap: 8px;
