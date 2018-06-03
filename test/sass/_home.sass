@@ -1,0 +1,923 @@
+@import "fonts"
+@import "vars"
+
+
+//begin section slider
+.slider
+	.slider_first
+		width: 100%
+		text-align: center
+		margin-bottom: 0
+		height: 420px
+		.slider_first_item
+			min-height: 420px
+			background-size: cover 
+			background-position: 50% 50%
+			background-repeat: no-repeat
+			text-align: center
+			h3 
+				margin-top: 122px
+				font-family: $font-montserrat
+			p
+				color: #fff 
+				font-weight: 400
+				font-size: 23px
+				margin-top: 15px
+				font-family: $font-montserrat
+			.btn_yellow_dark
+				margin-top: 54px
+				letter-spacing: 0.7px
+				font-weight: 900
+				font-size: 16px
+		.slick-prev
+			top: 50%
+			left: 25px
+			z-index: 10
+			width: 44px
+			height: 44px
+			border-radius: 50%
+			transition: all .3s ease-in-out
+			&:before
+				font: $font-material
+				content: "\f2fa"
+				font-size: 22px
+			&:hover
+				background: $color-darkBlue
+				transition: all .3s ease-in-out
+				&:before
+					color: #fff
+					transition: all .3s ease-in-out
+		.slick-next
+			top: 50%
+			right: 25px
+			z-index: 10
+			width: 44px
+			height: 44px
+			border-radius: 50%
+			transition: all .3s ease-in-out
+			&:before
+				font: $font-material
+				content: "\f2fb"
+				font-size: 22px
+			&:hover
+				transition: all .3s ease-in-out
+				background: $color-darkBlue
+				&:before
+					color: #fff
+					transition: all .3s ease-in-out
+.slick-dots 
+	bottom: 28px
+	display: inline-block!important
+	width: auto
+	height: 16px
+	background-color: rgba(#fff, .65)
+	border-radius: 8px
+	padding: 0 10px
+	position: relative
+	margin: 0 auto
+	li 
+		width: 8px
+		height: 8px
+		margin: 0 3px
+		button
+			font-size: 16px
+			width: 8px
+			height: 8px
+			line-height: .5
+			&:before 
+				font-family: 'slick'
+				font-size: 8px
+				line-height: 12px
+				position: absolute
+				top: 0
+				left: 0
+				width: 8px
+				height: 8px
+				content: '•'
+				text-align: center
+				opacity: .63
+				color: $color-dark
+	li.slick-active
+		button
+			&:before
+				color: #fff
+				opacity: 1
+//end section slider
+
+//begin section benefits
+.benefits
+	padding: 26px 0
+	min-height: 224px
+	background-color: #f6f4ee
+	.benefits_wr
+		display: flex
+		justify-content: space-between
+		align-items: center
+		// flex-wrap: wrap
+		animation-delay: 1.6s
+		&__item
+			flex-basis: 172px
+			margin: 0 6px
+			height: 172px
+			background-color: #fff
+			border-radius: 4px
+			display: flex
+			flex-direction: column
+			justify-content: center
+			align-items: center
+			transition: all .3s ease-in-out
+			&:first-child
+				flex-basis: 277px
+				min-width: 277px
+				margin-left: 0
+				background: url(../img/benefits_bg.png)
+				align-items: flex-start
+				justify-content: flex-start
+				padding: 10px 20px 25px 25px
+				h5 
+					text-transform: uppercase
+					font-size: 24px
+					font-weight: 700
+					letter-spacing: 1.2px
+				p 
+					padding-top: 5px
+					text-align: left
+					font-size: 16px
+					font-weight: 700
+					letter-spacing: 0.25px
+					width: 100%
+			&:nth-child(2)
+				animation-delay: 1.8s
+			&:nth-child(3)
+				animation-delay: 2s
+			&:nth-child(4)
+				animation-delay: 2.2s
+			&:nth-child(5)
+				animation-delay: 2.4s
+			&:nth-child(6)
+				animation-delay: 2.6s
+			&:hover
+				transition: all .3s ease-in-out
+				.benefits_icon_wr
+					background-color: transparent
+					transition: all .3s ease-in-out
+			.benefits_icon_wr
+				background-color: $color-lightBlue
+				border: 2px solid $color-lightBlue
+				width: 90px
+				height: 90px
+				border-radius: 50%
+				transition: all .3s ease-in-out
+				.benefits_icon
+					width: 100%
+					height: 100%
+					background: url(../img/benefits_icon_sprite.png) no-repeat
+					background-position: 16px 13px
+				.benefits_icon2
+					background-position: -156px 13px
+				.benefits_icon3
+					background-position: -335px 13px
+				.benefits_icon4
+					background-position: -512px 13px
+				.benefits_icon5
+					background-position: -690px 13px
+			.benefits_title
+				margin-top: 10px
+				font-weight: 700
+				text-transform: uppercase
+				font-size: 14px
+			p 
+				text-align: center
+				font-size: 14px
+				font-weight: 400
+
+
+
+			.benefits_img
+				margin: auto
+				width: 68px
+				height: 72px
+				
+			.benefits_img_2
+				background-position: -75px 0
+			.benefits_img_3
+				background-position: -143px 0
+			.benefits_img_4
+				background-position: -210px 0
+			p 
+				font-weight: 500
+				letter-spacing: 0.6px
+				line-height: 1.4
+//end section our_benefits
+
+
+//begin section prod_category
+.prod_category
+	padding: 35px 0
+	min-height: 484px
+	background-color: $color-dark
+	.prod_category_wr
+		margin-top: 25px
+		display: flex
+		justify-content: space-between
+		&__item
+			flex-basis: 282px
+			min-width: 282px
+			margin: 6px
+			border-radius: 4px
+			max-height: 315px
+			border: 2px solid transparent
+			transition: all .3s ease-in-out
+			position: relative
+			overflow: hidden
+			&:before
+				position: absolute
+				content: ''
+				top: 0
+				left: 0
+				right: 0
+				bottom: 0
+				background: linear-gradient(to bottom, rgba(255,255,255,.8) 30%,rgba(255,255,255,0) 100%)
+				transition: all .3s ease-in-out
+			&:hover
+				box-shadow: 0px 0px 101px 0px rgba(0,0,0,0.75)
+				border: 2px solid #fff
+				transition: all .3s ease-in-out
+				&:before
+					background: linear-gradient(to bottom, rgba(255,255,255,.7) 75%,rgba(255,255,255,0) 100%)
+					transition: all .3s ease-in-out
+				.prod_category_first_title
+					background-color: $color-yellow
+					transition: all .3s ease-in-out
+				.hover_link_wr
+					left: 15px 
+					bottom: 15px
+					transition: all .3s ease-in-out
+					.hover_link
+						&:before
+							width: 220px
+							height: 220px
+							transition: all .3s ease-in-out
+			&:nth-child(2)
+				animation-delay: .2s
+			&:nth-child(3)
+				animation-delay: .4s
+			&:nth-child(4)
+				animation-delay: .6s
+					
+			.prod_category_first_title
+				position: absolute
+				top: 20px
+				left: 10px
+				text-transform: uppercase
+				font-size: 20px
+				letter-spacing: 0.6px
+				font-weight: 700
+				background-color: #fff
+				padding: 0 5px
+				transition: all .3s ease-in-out
+				a 
+					color: $color-dark
+			.prod_category_second_title
+				position: absolute
+				top: 40px
+				left: 12px
+				letter-spacing: 2px
+				a
+					color: $color-darkBlue
+					text-transform: uppercase
+					font-size: 36px
+					font-weight: 700
+			img
+				border-radius: 4px
+				max-width: 100%
+			.hover_link_wr
+				position: absolute
+				left: -50px
+				bottom: -50px
+				display: inline-block
+				width: 50px
+				height: 50px
+				transition: all .3s ease-in-out
+				.hover_link
+					position: relative
+					display: flex
+					justify-content: center
+					align-items: center
+					position: absolute
+					left: 0
+					top: 0
+					width: 50px
+					height: 50px
+					transition: all .3s ease-in-out
+					&:after
+						position: absolute
+						content: '\f30b'
+						font-family: $font-awesome
+						font-weight: 900
+						left: 0
+						top: 0
+						width: 50px
+						height: 50px
+						color: $color-dark
+						border-radius: 50%
+						background-color: $color-yellow
+						display: flex
+						justify-content: center
+						align-items: center
+					&:before
+						position: absolute
+						left: 50%
+						top: 50%
+						transform: translate(-50%, -50%)
+						border-radius: 50%
+						content: ''
+						width: 0
+						height: 0
+						background-color: rgba($color-dark, .55)
+						transition: all .3s ease-in-out
+//end section prod_category
+
+
+//begin section latest_prod
+.latest_prod
+	min-height: 562px
+	padding: 40px 0 0
+	background-color: #f6f4ee
+	h4 
+		color: $color-dark
+//end section latest_prod
+
+//begin section products
+.products
+	.slider_two
+		width: 100%
+		margin-top: 23px
+		min-height: 444px
+		.slick-slide
+			margin: 0 12px
+			text-align: center
+			.delay2
+				animation-delay: .2s
+			.delay3
+				animation-delay: .4s
+			.delay4
+				animation-delay: .6s
+			.slider_two_item
+				background-color: #fff
+				max-width: 280px 
+				min-width: 280px
+				min-height: 386px
+				padding: 10px
+				position: relative
+				border-radius: 4px
+				transition: all .3s ease-in-out
+				&:hover
+					min-height: 436px
+					transition: all .3s ease-in-out
+					.slider_two_item_content
+						.hover_block_wr
+							.hover_block
+								right: 0
+								transition: all .3s ease-in-out
+						.btn_prod_wr
+							flex-direction: column
+							transition: all .3s ease-in-out
+							.price_wr
+								.price
+									margin-bottom: 25px
+									transition: all .3s ease-in-out
+							.btn_prod_in_wr
+								display: flex
+								flex-direction: row-reverse
+								.btn_yellow_heart
+									margin-right: 10px
+									border: none
+								.btn_yellow_cart
+									&:before
+										content: 'ADD TO CART'
+										font-size: 14px
+									i 
+										display: none
+				
+				.slider_two_item_content
+					text-align: center
+					.hover_block_wr
+						position: absolute
+						top: 0
+						right: 10px
+						width: 38px
+						height: 304px
+						overflow: hidden
+						.hover_block
+							position: relative
+							overflow: hidden
+							right: -100px
+							transition: all .3s ease-in-out
+							&:before
+								position: absolute
+								top: -40px
+								right: -285px
+								content: ''
+								width: 304px
+								height: 304px
+								background-color: rgba($color-darkBlue, .62)
+								border-radius: 50%
+							&:after
+								position: absolute
+								top: 100px
+								right: -8px
+								content: '\f30b'
+								font-family: $font-awesome
+								font-weight: 900
+								color: #fff
+					img 
+						max-width: 100%
+					h6 
+						font-size: 16px
+						text-transform: uppercase
+						font-weight: 900
+						margin-top: 18px
+						line-height: 1.4
+					.btn_prod_wr
+						position: absolute
+						left: 0
+						bottom: 0
+						padding: 12px 18px 18px 
+						width: 100%
+						display: flex
+						justify-content: space-between
+						align-items: center
+						transition: all .3s ease-in-out
+						.btn_yellow_heart
+							margin-left: 5px
+						.price_wr
+							.price
+								color: $color-yellow
+								font-weight: 500
+								font-size: 15px
+								display: inline-block
+								text-decoration: line-through
+								transition: all .3s ease-in-out
+							.price_sale
+								font-weight: 900
+								font-size: 21px
+								color: $color-darkBlue
+								padding-right: 5px
+
+		.slick-prev
+			top: 35%
+			left: -70px
+			z-index: 10
+			width: 44px
+			height: 44px
+			border-radius: 50%
+			transition: all .3s ease-in-out
+			&:before
+				font: $font-material
+				content: "\f2fa"
+				font-size: 33px
+				color: $color-dark
+			&:hover
+				background: rgba(#fff, .55)
+				transition: all .3s ease-in-out
+				&:before
+					color: $color-darkBlue
+					transition: all .3s ease-in-out
+		.slick-next
+			top: 35%
+			right: -70px
+			z-index: 10
+			width: 44px
+			height: 44px
+			border-radius: 50%
+			transition: all .3s ease-in-out
+			&:before
+				font: $font-material
+				content: "\f2fb"
+				font-size: 33px
+				color: $color-dark
+			&:hover
+				transition: all .3s ease-in-out
+				background: rgba(#fff, .55)
+				&:before
+					color: $color-darkBlue
+					transition: all .3s ease-in-out
+
+
+//end section products
+
+
+//begin section featured_prod
+.featured_prod
+	min-height: 564px
+	padding: 40px 0 0
+	background-position: center
+	background-size: cover
+	background-repeat: no-repeat
+	h4 
+		color: $color-dark
+//end section featured_prod
+
+
+//begin section wholesale
+.wholesale
+	min-height: 834px
+	padding: 60px 0 20px
+	.advice
+		float: left
+		margin-top: 8px
+	p 
+		font-weight: 400
+		font-size: 14px
+		text-align: justify
+		margin-top: 25px
+		span 
+			font-weight: 700
+	.img_left_wr
+		margin-top: 62px
+		img 
+			left: 4px
+			top: -194px
+	.img_right_wr
+		min-height: 450px
+		img 
+			right: -28px
+			top: 4px
+	.correct_r
+		p 
+			margin-top: 2px
+			padding-right: 20px
+			&:last-child
+				margin-top: 8px
+	.correct_l
+		padding-bottom: 140px
+		p 
+			&:nth-child(4)
+				margin-top: 13px
+
+
+.convenience
+	margin-top: 15px
+	letter-spacing: 3.5px
+	text-align: center
+	font-size: 81px
+	font-weight: 900
+	text-transform: uppercase
+	line-height: 1
+	position: relative
+	color: transparent
+	background: linear-gradient(to bottom, rgba($color-lightBlue,.5) 0,rgba(255,255,255,0) 100%)
+	background-clip: text
+	text-fill-color: transparent
+
+.advice
+	font-size: 14px
+	font-weight: 500
+	background-color: $color-greenYellow
+	display: inline-block
+	border-radius: 3px
+	padding: 0 12px
+	line-height: 1.3
+	margin-bottom: 15px
+	color: #fff
+//end section wholesale
+
+
+//begin section design
+.design
+	min-height: 834px
+	padding: 60px 0
+	h2 
+		text-align: right
+		clear: both
+	.list
+		text-transform: uppercase
+		font-weight: 700
+		margin-bottom: 5px
+		margin-top: 10px
+		&:before
+			content: '●'
+			font-size: 10px
+			padding-right: 4px
+	p 
+		font-weight: 400
+		font-size: 14px
+		text-align: justify
+		letter-spacing: 0.5px
+		span 
+			font-weight: 700
+	.img_left_wr
+		min-height: 300px
+		margin-bottom: 44px
+		img
+			left: -49px
+			top: 23px
+	.img_right_wr
+		margin-top: 60px
+		img 
+			top: -83px
+	.convenience
+		margin-top: 33px
+	
+	.correct_r
+		padding-bottom: 40px
+		p 
+			margin-top: 20px
+			margin-left: 10px
+			letter-spacing: 0.7px
+			&:nth-child(5)
+				margin-top: 5px
+
+		.advice
+			float: right
+			margin-top: 11px
+			letter-spacing: 0
+		.list 
+			margin-top: 10px
+
+//end section design
+
+//begin section furniture
+.furniture
+	min-height: 270px
+	padding-top: 8px
+	padding-bottom: 110px
+	.container-fluid
+		max-width: 1100px
+		.furniture_wr
+			display: flex
+			.left_bl
+				flex-basis: 58%
+				min-height: 255px
+				background-size: cover
+				background-position: center
+				background-repeat: no-repeat
+				border-radius: 15px 0 0 15px
+				padding: 43px 52px
+				h5 
+					text-transform: uppercase
+					color: #fff 
+					font-size: 28px
+					letter-spacing: 2.2px
+				h6
+					text-transform: uppercase
+					color: #fff 
+					font-size: 22px
+					margin-bottom: 33px
+					letter-spacing: 1.8px
+					margin-top: 2px
+				.btn_yellow_dark
+					margin-left: 5px
+					padding: 8px 20px
+					letter-spacing: 3px
+					font-weight: 900
+			.right_bl
+				flex-basis: 42%
+				min-height: 255px
+				background-color: #f6f4ee
+				border-radius: 0 15px 15px 0
+				padding: 50px 30px 30px 39px
+				p 
+					font-size: 14px
+					text-align: justify
+					&:last-child
+						margin-top: 9px
+					span 
+						font-weight: 700
+
+//end section furniture
+
+//begin section last_news
+.last_news
+	padding: 40px 0
+	min-height: 480px
+	background-size: cover 
+	background-position: center
+	background-repeat: no-repeat
+	.last_news_wr
+		margin-top: 28px
+		display: flex
+		width: 100%
+		border-radius: 4px
+		.main_item
+			flex-basis: 313px
+			min-width: 313px
+			min-height: 304px
+			padding: 0
+			background-size: cover 
+			background-position: center
+			background-repeat: no-repeat
+			border-radius: 4px 0 0 4px
+			position: relative
+			&:after
+				display: none
+			&:hover 
+				transition: all .3s ease-in-out
+				.hover_block_wr
+					.hover_block
+						left: 0
+						transition: all .3s ease-in-out
+			.hover_block_wr
+				position: absolute
+				top: 50%
+				transform: translateY(-50%)
+				left: 0
+				width: 70px
+				height: 270px
+				overflow: hidden
+				.hover_block
+					position: relative
+					display: inline-block
+					width: 100%
+					height: 100%
+					overflow: hidden
+					left: -100px
+					transition: all .3s ease-in-out
+					&:before
+						position: absolute
+						top: 0
+						right: 0
+						content: ''
+						width: 270px
+						height: 270px
+						background-color: $color-yellow
+						border-radius: 50%
+					&:after
+						position: absolute
+						top: 50%
+						left: 50%
+						transform: translate(-50%, -50%)
+						content: '\f30b'
+						font-family: $font-awesome
+						font-weight: 900
+						color: #fff
+		.slider_three
+			width: 100%
+			min-height: 304px
+			.slick-active
+				&:nth-child(3)
+					.slider_three_item
+						border-radius: 0 4px 4px 0
+						&:after
+							display: none
+				.slider_three_item
+					background-color: #fff
+					min-height: 304px
+					padding: 20px
+					position: relative
+					transition: all .3s ease-in-out
+					// border-right: 2px solid #c0ccd4
+					&:after
+						content: ''
+						position: absolute
+						top: 20px
+						right: 0
+						width: 2px
+						height: 88%
+						background-color: #c0ccd4
+					&:last-child
+						&:after
+							// display: none
+					&:hover
+						.news_title
+							color: $color-darkBlue
+							transition: all .3s ease-in-out
+					.news_title
+						transition: all .3s ease-in-out
+						font-size: 18px
+						font-weight: 700
+						line-height: 1.2
+						letter-spacing: 0.5px
+					.date
+						font-weight: 400
+						font-size: 14px
+						color: $color-gray
+						margin: 10px 0 20px
+						letter-spacing: -0.6px
+						&:before
+							content: '\f303'
+							font-family: $font-awesome
+							font-weight: 900
+							font-size: 12px
+							padding-right: 3px
+					.main_cont
+						font-size: 14px
+						font-weight: 400
+						text-align: justify
+						letter-spacing: 0.5px
+					.btn_bottom_wr
+						display: flex
+						justify-content: space-between
+						align-items: center
+						position: absolute
+						width: 100%
+						bottom: 0
+						left: 0
+						padding: 0 20px 22px
+						.views
+							font-size: 12px
+							color: $color-gray
+							&:before
+								content: '\f06e'
+								font-family: $font-awesome
+								font-weight: 900
+								padding-right: 5px
+						.share
+							color: $color-darkBlue
+							position: relative
+							transition: all .3s linear
+							width: 19px
+							height: 25px
+							margin-left: 12px
+							&:before
+								content: '\f1e0'
+								font-family: $font-awesome
+								font-weight: 900
+								padding-right: 5px
+								font-size: 14px
+							&:hover
+								transition: all .3s linear
+								color: $color-yellow
+								.share_in
+									width: 25px
+									height: auto
+									bottom: 25px
+									transition: all .3s linear
+									z-index: 10
+									a 
+										i 
+											font-size: 16px
+											transition: all .4s linear
+							.share_in
+								z-index: 20
+								position: absolute
+								border: 1px solid $color-lightGray
+								// top: 20px
+								bottom: -100px 
+								left: -5px
+								background-color: #fff
+								padding: 5px
+								border-radius: 2px
+								width: 0
+								height: 0
+								display: flex
+								flex-direction: column
+								transition: all .3s linear
+								a
+									i 
+										color: $color-darkBlue
+										font-size: 0
+										transition: all .3s linear
+									&:hover
+										i
+											color: $color-yellow
+.delay2
+	animation-delay: .2s
+.delay3
+	animation-delay: .4s
+.delay4
+	animation-delay: .6s
+.delay5
+	animation-delay: .8s
+
+//end section last_news
+
+
+
+
+
+
+//begin section git_in
+.git_in
+	min-height: 369px
+	background-size: cover 
+	background-position: 50% 50%
+	background-repeat: no-repeat
+	text-align: center
+	.git_in_content
+		margin-top: 73px
+		h3 
+			font-weight: 700
+			text-align: center
+			color: #fff
+			font-size: 43px
+			font-family: $font-montserrat
+		p 
+			color: #fff
+			font-size: 23px
+			font-family: $font-montserrat
+			margin: 15px 0 47px
+		.btn_yellow_dark_simple
+			padding: 6px 14px
+			letter-spacing: 1.3px
+			font-size: 16px
+			font-weight: 900
+
+//end section ask_expert
+
+
+
+
+// @import "header"
+// Всегда в конце

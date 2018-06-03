@@ -1,0 +1,82 @@
+@import "fonts"
+@import "vars"
+
+
+
+//begin section page_nod_found
+.page_nod_found
+	min-height: 559px
+	.bl_img_404_wr
+		position: relative
+		min-height: 470px
+		img 
+			max-width: 200px
+			position: absolute
+			right: 0
+			top: -80px
+		.animChair
+			animation: rotateChair 1s 1s linear forwards, translateChair 1s 2s linear forwards
+		.anim_img
+			left: 80%
+			transition: left .4s	
+
+	.bl_right_homepage
+		background-color: #f6f4ee
+		max-width: 375px
+		min-height: 245px
+		padding: 40px 60px 40px 75px
+		position: relative
+		border-radius: 7px
+		margin-top: 43px
+		margin-left: 31px
+		animation: shakeBox 3s linear forwards
+		&:before
+			content: '\f0d9'
+			font-family: $font-awesome
+			font-weight: 900
+			font-size: 36px
+			color: #f6f4ee
+			position: absolute
+			left: -12px
+			top: 50%
+			transform: translateY(-50%)
+		p 
+			font-size: 20px
+			font-weight: 700
+		.btn_yellow_dark
+			position: absolute
+			bottom: 46px
+			left: 78px
+			font-weight: 900
+			font-size: 16px
+			letter-spacing: 1px
+			padding: 8px 30px
+
+@keyframes rotateChair
+	0% 
+		transform: rotate(0deg)
+		transform-origin: 10% 100%
+	100%
+		transform: rotate(-90deg)
+		transform-origin: 10% 100%
+
+@keyframes opacityShadow
+	0% 
+		opacity: 0
+	100% 
+		opacity: 1
+
+@keyframes shakeBox
+	0% 
+		transform: translateX(0)
+	25% 
+		transform: translateX(15px)
+	50% 
+		transform: translateX(-15px)
+	75% 
+		transform: translateX(15px)
+	100% 
+		transform: translateX(0)
+
+//end section page_nod_found
+

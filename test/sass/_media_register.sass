@@ -1,0 +1,61 @@
+@import "fonts"
+@import "vars"
+	
+
+
+@media only screen and (max-width : 1100px)
+  .form_reg 
+    .reg_flex 
+      .bl_left
+        flex-basis: 350px
+
+@media only screen and (max-width : 992px)
+  .form_reg 
+    max-width: 768px
+    margin: 0 auto
+    .reg_flex 
+      flex-wrap: wrap
+      .bl_left
+        flex-basis: 100%
+        max-width: 100%
+        padding-right: 0
+        &:after
+          display: none
+      .bl_right
+        flex-basis: 100%
+        max-width: 100%
+        padding-left: 0
+        padding-top: 50px
+	
+
+
+
+
+
+// @media only screen and (max-width : 768px)
+  
+@media only screen and (max-width : 576px)
+  .form_reg 
+    .reg_flex 
+      .bl_right
+        .reg_form_wr
+          .shipp_details_bl
+            .bl_left_shipp,
+            .bl_right_shipp
+              flex-basis: 100%
+              max-width: 100%
+  .form_reg 
+    .reg_flex 
+      .reg_form_wr 
+        .reg_wrap_sub
+          text-align: center
+          .wrap_home_sub
+            padding-right: 0
+        .return_wr
+          text-align: center
+
+
+
+            
+    
+

@@ -1,0 +1,226 @@
+@import "fonts"
+@import "vars"
+
+
+//begin section title_blog
+.title_blog
+	h1 
+		text-align: center
+		margin-top: 20px
+		font-size: 43px
+		font-weight: 900
+
+//end section title_blog
+
+//begin section blog
+.blog
+	padding-bottom: 90px
+	background-color: #fff
+	padding-top: 30px
+	.bl_grid_container
+		display: flex
+		flex-wrap: wrap
+		justify-content: space-between
+		max-width: 965px
+		margin: 0 auto
+		.bl_grid_item
+			flex: 1 1 300px
+			max-width: 290px
+			min-height: 300px
+			border: 1px solid #e8e8e8
+			border-radius: 4px
+			padding: 20px
+			position: relative
+			transition: all .3s ease-in-out
+			overflow: hidden
+			margin-bottom: 30px
+			&:hover
+				box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.14)
+				.news_title
+					color: $color-darkBlue
+					transition: all .3s ease-in-out
+			.news_title
+				transition: all .3s ease-in-out
+				font-size: 18px
+				font-weight: 700
+				line-height: 1.2
+				letter-spacing: 0.5px
+				text-transform: uppercase
+			.date
+				font-weight: 400
+				font-size: 14px
+				color: $color-gray
+				margin: 10px 0 20px
+				letter-spacing: -0.6px
+				&:before
+					content: '\f303'
+					font-family: $font-awesome
+					font-weight: 900
+					font-size: 12px
+					padding-right: 3px
+			.main_cont
+				font-size: 14px
+				font-weight: 400
+				text-align: justify
+				letter-spacing: 0.5px
+			.btn_bottom_wr
+				display: flex
+				justify-content: space-between
+				align-items: center
+				position: absolute
+				width: 100%
+				bottom: 0
+				left: 0
+				padding: 0 20px 22px
+				.views
+					font-size: 12px
+					color: $color-gray
+					margin-top: 11px
+					margin-left: 5px
+					&:before
+						content: '\f06e'
+						font-family: $font-awesome
+						font-weight: 900
+						padding-right: 5px
+				.share
+					color: $color-darkBlue
+					position: relative
+					transition: all .3s linear
+					width: 19px
+					height: 25px
+					margin-left: 23px
+					margin-top: 8px
+					&:before
+						content: '\f1e0'
+						font-family: $font-awesome
+						font-weight: 900
+						padding-right: 5px
+						font-size: 14px
+					&:hover
+						transition: all .3s linear
+						color: $color-yellow
+						.share_in
+							width: 25px
+							height: auto
+							bottom: 25px
+							transition: all .3s linear
+							z-index: 10
+							a 
+								i 
+									font-size: 16px
+									transition: all .4s linear
+					.share_in
+						z-index: 20
+						position: absolute
+						border: 1px solid $color-lightGray
+						// top: 20px
+						bottom: -100px 
+						left: -5px
+						background-color: #fff
+						padding: 5px
+						border-radius: 2px
+						width: 0
+						height: 0
+						display: flex
+						flex-direction: column
+						transition: all .3s linear
+						a
+							i 
+								color: $color-darkBlue
+								font-size: 0
+								transition: all .3s linear
+							&:hover
+								i
+									color: $color-yellow
+
+
+
+
+
+
+
+
+
+
+
+
+	.bl_pagination
+		display: flex
+		justify-content: center
+		margin-top: 36px
+		list-style-type: none
+		align-items: center
+		li 
+			display: inline-block
+			padding-top: 4px
+			.prev_page
+				margin: 0 18px
+				font-weight: 600
+				transition: all .3s ease-in-out
+				&:hover
+					color: $color-yellow		
+					transition: all .3s ease-in-out
+				&:before
+					content: '\f104'
+					font-family: "Font Awesome 5 Free"
+					font-weight: 900
+					font-size: 16px
+					top: 2px
+			.next_page
+				margin: 0 18px
+				font-weight: 600
+				transition: all .3s ease-in-out
+				&:hover
+					color: $color-yellow
+					transition: all .3s ease-in-out
+				&:after
+					content: '\f105'
+					font-family: "Font Awesome 5 Free"
+					font-weight: 900
+					font-size: 16px
+			a 
+				text-transform: uppercase
+				color: $color-dark
+				font-weight: bold
+				transition: all .3s ease-in-out
+				&:hover
+					color: $color-orange
+					opacity: 1
+					transition: all .3s ease-in-out
+		.btn_pagination
+			font-size: 14px
+			text-transform: uppercase
+			background-color: $color-darkBlue
+			color: #fff
+			display: flex
+			padding: 5px 35px 5px 15px
+			align-items: center
+			font-weight: 700
+			position: relative
+			border-radius: 7px
+			transition: all .3s ease-in-out
+			&:after
+				content: url(../img/reload-arrow.png)
+				position: absolute
+				right: 10px
+				top: 8px
+			&:hover
+				background-color: $color-yellow	
+				transition: all .3s ease-in-out		
+		.btn_loading
+			position: relative
+			&:after
+				content: url(../img/reload-arrow.png)
+				position: absolute
+				height: 15px
+				right: 10px
+				top: 8px
+				animation: preload .8s infinite linear
+
+@keyframes preload 
+	0%
+		transform: rotate(0deg)
+	100% 
+		transform: rotate(360deg)
+
+//end section blog

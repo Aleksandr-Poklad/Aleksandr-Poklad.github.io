@@ -1,0 +1,78 @@
+@import "fonts"
+@import "vars"
+
+
+
+@media (max-width: 1100px)
+  .checkout 
+    .checkout_content_wr 
+      .bl_left,
+      .bl_right
+        flex: 1 1 50%
+        flex-basis: 50%
+        max-width: 50%
+
+@media (max-width: 992px)
+  .checkout 
+    .checkout_content_wr 
+      flex-wrap: wrap
+
+      .bl_left,
+      .bl_right
+        flex: 1 1 100%
+        flex-basis: 100%
+        max-width: 768px
+        margin: 0 auto
+      .bl_left
+        margin-bottom: 50px
+
+
+
+@media (max-width: 576px)
+  .checkout 
+    .checkout_content_wr 
+      .bl_right 
+        .your_order 
+          .order-name 
+            padding: 0 15px 
+            .order_name_wr 
+              flex-wrap: wrap
+              margin-top: 10px
+              p
+                font-size: 10px
+                padding: 15px 0
+  .checkout 
+    .btn_order_wr 
+      .btn_place_order,
+      .btn_pay_pal
+        min-width: 300px
+    .bl_credit_card
+      flex-wrap: wrap
+
+
+
+@media (max-width: 480px)
+  .checkout 
+    .checkout_content_wr 
+      .bl_right 
+        .your_order 
+          .background-white
+            padding: 10px
+  .checkout 
+    .btn_order_wr 
+      .btn_place_order,
+      .btn_pay_pal
+        min-width: 250px
+
+
+@media (max-width: 360px)
+
+  .checkout 
+    .btn_order_wr 
+      .btn_place_order,
+      .btn_pay_pal
+        min-width: 230px
+
+
+
+

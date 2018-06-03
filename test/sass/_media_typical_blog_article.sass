@@ -1,0 +1,64 @@
+@import "fonts"
+@import "vars"
+	
+
+
+@media only screen and (max-width : 992px)
+	.blog_article 
+		.container-fluid 
+			.bl_article_wr 
+				.bl_article 
+					.row 
+						.bl_img_container 
+							img
+								margin: 0 10px 10px
+
+
+
+
+
+
+
+@media only screen and (max-width : 767.9px)	
+	.blog_article 
+		padding-bottom: 50px
+		.container-fluid
+			flex-wrap: wrap 
+			.bl_article_wr 
+				flex-basis: 100%
+				margin-right: 0
+				.bl_article
+					.pushed
+						flex-direction: column-reverse
+						.col-12
+							flex-basis: auto
+					.row 
+						&:nth-child(5)
+							padding-top: 0
+						.bl_img 
+							img
+								padding-bottom: 30px
+			.sidebar_wr
+				margin-top: 30px
+				flex-basis: 100%
+				max-width: 100%
+
+
+	
+
+@media only screen and (max-width : 576px)
+	.blog_article 
+		.container-fluid 
+			.bl_article_wr 
+				.bl_article 
+					.row 
+						.bl_text_title 
+							h1
+								font-size: 18px
+
+@media only screen and (max-width : 420px)	
+	.blog 
+		.bl_pagination 
+			flex-wrap: wrap
+			.btn_pagination
+				margin-top: 10px	

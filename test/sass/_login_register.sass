@@ -1,0 +1,308 @@
+@import "fonts"
+@import "vars"
+
+
+//begin section login_inform_bg
+.login_inform_bg
+	position: relative
+	margin-top: 70px
+	margin-bottom: 129px
+	padding: 20px 0
+	&:before
+		content: ''
+		position: absolute
+		left: 0
+		top: 0
+		width: 100%
+		height: 100%
+		background-color: #f6f4ee
+
+	.contact_flex
+		display: flex
+		// flex-wrap: wrap
+		flex-direction: row
+		.contact_item_50
+			// flex: 0 0 50%
+			flex-grow: 0
+			flex-shrink: 0
+		.cont_bl_left
+			width: 50%
+			flex-basis: 50%
+			.contact_information_wrap
+				padding-left: 48px
+				position: relative
+				.contact_information
+					padding: 40px 0 0
+					p 
+						font-size: 16px
+						letter-spacing: 0.6px
+						&:first-child 
+							font-size: 24px
+							font-weight: 900
+							margin-bottom: 12px
+						&:nth-child(3) 
+							margin-bottom: 8px
+						a 
+							color: $color-darkBlue
+							font-weight: 700
+							text-decoration: underline
+
+					ul 
+						list-style-type: none
+						padding-left: 34px
+						margin-bottom: 35px
+						margin-top: 8px
+						li 
+							line-height: 1.3
+							margin-bottom: 10px
+							&:before
+								content: '●'
+								font-size: 12px
+								color: $color-darkBlue
+								padding-right: 5px
+					.btn_yellow_light
+						padding: 7px 18px
+		.cont_bl_right
+			width: 50%
+			flex-basis: 50%
+			position: relative
+			
+				
+.login_form_wr
+	max-width: 540px
+	width: 100%
+	min-height: 450px
+	box-shadow: 0px 0px 35px 6px rgba(0,0,0,0.07)
+	border-radius: 4px
+	background: #fff  
+	margin-left: 10px
+	.form_title
+		font-weight: 900
+		padding-top: 28px
+		font-size: 24px
+		text-align: center
+		letter-spacing: 0.5px
+	.info_message
+		background-color: #f6f4ee
+		font-size: 14px
+		font-family: $font-montserrat
+		font-weight: 600
+		color: #50515a
+		padding: 11px 0
+		position: relative
+		padding-left: 48px
+		border-radius: 2.5px
+		margin-left: 51px
+		margin-right: 38px
+		margin-top: 13px
+		&:before
+			content: '\f00c'
+			font-weight: 900
+			font-family: $font-awesome
+			position: absolute
+			left: 18px
+			top: 50%
+			transform: translateY(-50%)
+			color: $color-darkBlue
+			z-index: 2
+		&:after
+			content: ''
+			z-index: 1	
+			width: 28px
+			height: 28px
+			border-radius: 50%
+			background-color: #fff
+			position: absolute
+			left: 10px
+			top: 50%
+			transform: translateY(-50%)
+	.form
+		padding: 26px 42px 30px 53px
+		.wrap_input 
+			position: relative
+			display: block
+			height: 40px
+			margin-bottom: 14px
+			border-bottom: 1px solid #ababab
+			&:after
+				content: ''
+				width: 0
+				height: 1px
+				position: absolute
+				left: 0
+				bottom: -1px
+				// background-color: $orange
+				transition: width .3s
+			&:nth-child(2)
+				margin-bottom: 21px
+		.check
+			border-bottom: 1px solid #4caf50
+			&:before
+				content: '\f00c'
+				font-family: "Font Awesome 5 Free"
+				font-weight: 900
+				font-size: 14px
+				color: #4caf50
+				position: absolute
+				top: 14px
+				right: 0
+			&:after
+				width: 100%
+				height: 2px
+			.floating-label
+				color: #4caf50
+				span 
+					color: #4caf50
+		.error
+			position: relative
+			border-bottom: 1px solid #e30a0b
+			.floating-label
+				top: -4px
+				left: 0
+				opacity: 0.5
+				font-size: 11px
+				font-weight: 600
+				color: #e30a0b
+				span 
+					color: #e30a0b
+			.error_text
+        display: block
+        width: 100%
+        position: absolute
+        left: 4px
+        bottom: 3px
+        font-size: 14px
+        color: #e30a0b
+        // font-style: italic
+        &:before
+          content: '\f12a'
+          font-family: "Font Awesome 5 Free"
+          font-weight: 900
+          font-style: normal
+          position: absolute
+          right: 8px
+          bottom: 3px
+          font-size: 14px
+          color: #e30a0b
+		.wpcf7-form-control-wrap 
+      input
+        border: none
+        box-shadow: none
+        outline: 0
+        border-radius: 0
+      .ist_input, 
+      .textarea 
+        position: absolute
+        top: 0
+        z-index: 1
+        width: 100%
+        height: 40px
+        padding: 18px 0 0 4px
+        font-size: 14px
+        color: #333
+        border: none
+        outline: 0
+        background: 0 0
+		.floating-label 
+      display: block
+      position: absolute
+      top: 0
+      padding-left: 2px
+      font-size: 14px
+      font-weight: 600
+      color: #333
+      transition: .2s ease all
+      span 
+        color: $color-yellow
+		.active
+      //top: -4px
+      left: 0
+      font-size: 11px
+      opacity: .7
+      // color: $orange
+      span 
+        // color: #4caf50
+		.active
+      .error_text
+        visibility: hidden
+        &:before
+          visibility: visible
+		.wrap_input.active
+      border-bottom: 1px solid $color-gray
+		.error_text
+      display: none
+		.wrap_textarea
+      position: relative
+      margin-top: 86px
+      height: 26px
+      border-color: #ababab
+      border-bottom: 1px solid #ababab
+      transition: all .3s ease-in-out
+      .textarea_label
+        display: block
+        position: absolute
+        top: -25px
+        font-size: 16px
+        color: #333
+        letter-spacing: 0.7px
+        font-weight: 600
+        transition: all .2s
+
+      .ist_input, .textarea 
+        position: absolute
+        top: 0
+        z-index: 1
+        width: 100%
+        height: 99.5%
+        padding: 0
+        font-size: 14px
+        color: #333
+        border: none
+        outline: 0
+        background-color: transparent
+        background-size: cover
+      .textarea
+        height: 26px
+        padding: 5px 12px
+        resize: none
+		.wrap_textarea.active
+      border: 1px solid #ababab
+      height: 60px
+      transition: all .3s ease-in-out
+      .textarea_label
+        font-size: 11px
+        // color: $orange
+      .textarea
+        height: 60px
+		.reg_wrap_sub
+			text-align: right
+			position: relative
+			.g-recaptcha
+        display: inline-block
+        transform: scale(0.7)
+        position: absolute
+        top: 13px
+        left: -44px
+			.wrap_home_sub 
+				display: inline-block
+				padding-top: 42px
+				padding-right: 13px
+				.home_sub 
+					border: none
+					cursor: pointer
+				.btn_yellow_dark 
+					padding: 8px 40px
+					font-weight: 900
+		.forgot_wr
+			text-align: center
+			padding-top: 30px
+			a 
+				font-weight: 700
+				letter-spacing: 0.7px
+				color: $color-darkBlue
+				text-decoration: underline
+
+
+
+//end section login_inform_bg
+
